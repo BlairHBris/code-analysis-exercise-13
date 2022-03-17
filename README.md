@@ -19,16 +19,21 @@ function (firstName, lastName, age){
 }
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        | 
-|       |        | 
-|       |        | 
+|          Input           |         Output         |
+| ------------------------ | ---------------------- |
+|    Blair, Bristow, 24    |    Blair Bristow 24    | 
+|    Lamar, Jackson, 25    |    Lamar Jackson 25    | 
+|      Billy, Bob, Joe     |     Billy Bob Joe      | 
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td></td>
+    <td>
+      This program creates an Array entitled person based on the firstName, lastName, and age values 
+      passed to it by the user. This program does not have any built in way to verify if an actual 
+      age is given, either by reading the string or requiring a number, so any string given to the 
+      function would be saved as the age. 
+    </td>
   </tr>
 </table>
 
