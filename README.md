@@ -19,11 +19,11 @@ function (firstName, lastName, age){
 }
 ```
 
-|          Input           |                        Output                           |
-| ------------------------ | ------------------------------------------------------- |
-|    Blair, Bristow, 24    |     firstName: "Blair" lastName: "Bristow" age: 24      | 
-|    Lamar, Jackson, 25    |     firstName: "Lamar" lastName: "Jackson" age: 25      | 
-|      Billy, Bob, Joe     |     firstName: "Billy" lastName: "Bob" age: "Joe"       | 
+|          Input           |                         Output                            |
+| ------------------------ | --------------------------------------------------------- |
+|    Blair, Bristow, 24    |     {firstName: "Blair" lastName: "Bristow" age: 24}      | 
+|    Lamar, Jackson, 25    |     {firstName: "Lamar" lastName: "Jackson" age: 25}      | 
+|      Billy, Bob, Joe     |     {firstName: "Billy" lastName: "Bob" age: "Joe"}       | 
 
 <table>
   <tr>
